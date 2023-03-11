@@ -1,3 +1,8 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -14,7 +19,17 @@ out/
 /nbdist/
 /.nb-gradle/
 
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+### VS Code ###
+.vscode/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
