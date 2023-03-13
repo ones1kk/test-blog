@@ -1,7 +1,7 @@
 name: CD
 on:
   push:
-    branches: [production, docs]
+    branches: [master]
 
 jobs:
   launch:
